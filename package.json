@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "deploy": "rm -rf dist && npm run build && cd dist && git init && git add . && git commit -m \"Initial commit\" && git remote add origin <git@github.com:your-github-project-ssh/https-link-goes-here> && git push --force origin master:gh-pages"
+    "deploy": "rm -rf dist && npm run build && cd dist && git init && git add . && git commit -m \"Initial commit\" && git remote add origin <your-github-project-ssh/https-link-goes-here> && git push --force origin master:gh-pages"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
