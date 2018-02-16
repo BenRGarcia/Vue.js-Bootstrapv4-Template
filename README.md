@@ -30,4 +30,7 @@ your production build to GitHub pages (`gh-pages` branch) with a simple command:
 
   * find the `"deploy"` script, scroll waaaaay to the right, add your github repo link there, too
 
-4. You may want to consider `$ npm outdated` and/or `$ npm update` for package updates after the creation of this template
+4. `$ npm run deploy` to automatically create a `gh-pages` branch, which GitHub will automatically 
+set as your default GitHub page
+
+5. You may want to consider `$ npm outdated` and/or `$ npm update` for package updates after the creation of this template
