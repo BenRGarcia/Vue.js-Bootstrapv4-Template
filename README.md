@@ -1,21 +1,33 @@
-# vue-bootstrap-template
+# Vue.js CLI webpack template + Bootstrap v4
 
-> A Vue.js template
+(Last updated 2/16/2018)
 
-## Build Setup
+> A Vue.js template made with [Vue.js' CLI webpack template](https://vuejs.org/v2/guide/installation.html#CLI), integrated with Bootstrap v4
 
-``` bash
-# install dependencies
-npm install
+Inspiration for making this template comes from [here](https://github.com/BenRGarcia/Vue-CLI-Notes)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Use this template **if**:
 
-# build for production with minification
-npm run build
+1. You want to use Vue.js' CLI webpack template with Bootstrap v4 ready to go
+2. You think that it would be neat to be able to automagically create/deploy  
+your production build to GitHub pages (`gh-pages` branch) with a simple command:  
+`$ npm run deploy`
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## To-Do's after you clone repo:
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+1. in root directory, run:
+`$ npm install`
+
+2. `$ git init`  
+  `$ git add .`  
+  `$ git commit -m "Initial commit"`  
+  `$ git remote add origin <github repo link here>`  
+  `$ git push -u origin master`
+
+3. in root directory's `package.json`:
+
+  * update `"name"`, `"description"`, `"author"`, etc. to your info
+
+  * find the `"deploy"` script, scroll waaaaay to the right, add your github repo link there, too
+
+4. You may want to consider `$ npm outdated` and/or `$ npm update` for package updates after the creation of this template
